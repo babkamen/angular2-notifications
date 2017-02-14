@@ -22,6 +22,13 @@ template: '<simple-notifications [options]="options"></simple-notifications>'
 ```
 
 You will also need to use the NotificationsService in your component to create or remove the notifications.
+If you are using typescript 
+```js
+...
+import {NotificationsService} from "angular2-notifications/src/notifications.service";
+...
+```
+
 ```js
 ...
 constructor( private _service: NotificationsService ) {}
